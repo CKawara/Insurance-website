@@ -7,16 +7,15 @@ body{
     font-family: Montserrat;
 }
 .container{
-    height: 600px;
+    height: 1000px;
     background: url("assets/hero-cover.3.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 #overlay{
-    position: fixed;
     overflow: auto;
     width: 100%;
-    height: 600px;
+    height: 1000px;
     top: 0;
     left: 0;
     right: 0;
@@ -35,7 +34,7 @@ nav>ul>li{
 }
 nav>ul>li>a{
     color: white;
-    text-decoration: white;
+    text-decoration: none;
     font-weight: 600;
 }
 .right{
@@ -53,6 +52,22 @@ nav>ul>li:last-child{
     background-color: #23A6F0;
     padding: 18px;
     border-radius: 10px;
+}
+.ensure{
+    border: solid;
+
+    height: 800px;
+    padding: 10%;
+    margin: 20px;
+    color: white;
+}
+.best{
+    height: 50%;
+    width: 60%;
+    font-size: 80px;
+    font-weight: 900;
+    position: relative;
+    left: 30%; 
 }
 .bunner{
     background-color: #f5f6fc;

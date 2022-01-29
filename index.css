@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 600px;
+}
+.bunner{
+    background-color: #f5f6fc;
+    height: 200px;
+}
+.quote{
+    height: 400px;
+}
+.services{
+    background-color: #f5f6fc;
+    height: 2000px; 
+}

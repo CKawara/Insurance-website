@@ -5,6 +5,9 @@
 }
 .container{
     height: 600px;
+    background: url("assets/hero-cover.3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .bunner{
     background-color: #f5f6fc;

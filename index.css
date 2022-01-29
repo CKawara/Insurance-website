@@ -145,6 +145,21 @@ nav>ul>li:last-child{
 .quote{
     height: 400px;
 }
+.create{
+    display: flex;
+}
+.set{
+    width: 20%;
+    position: relative;
+    left: 15%;
+    margin-top: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+.Satisfaction{
+    font-size: x-large;
+    font-weight: 900;
+}
 .services{
     background-color: #f5f6fc;
     height: 2000px; 

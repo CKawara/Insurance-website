@@ -54,8 +54,6 @@ nav>ul>li:last-child{
     border-radius: 10px;
 }
 .ensure{
-    border: solid;
-
     height: 800px;
     padding: 10%;
     margin: 20px;
@@ -80,7 +78,31 @@ nav>ul>li:last-child{
     margin: 30px;
     text-align: center;
 }
-
+.get{
+    width: 50%;
+    height: 40%;
+    padding: 60px;
+    margin-top: -20px;
+    text-align: center;
+    position: relative;
+    left: 30%;
+    
+}
+.get button{
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    margin-right: 70px;
+    width: 30%;
+    border-radius: 30px;
+    background-color: #23A6F0;
+}
+.get button:last-child{
+    background-color: transparent;
+    border: white solid 1px;
+}
+.get button:last-child:hover{
+    background-color: #23A6F0;
 
 }
 .bunner{

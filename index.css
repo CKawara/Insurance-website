@@ -109,7 +109,39 @@ nav>ul>li:last-child{
     background-color: #f5f6fc;
     height: 200px;
 }
+.peace{
+    display: flex;
+    
+}
+.mind{
+    width: 20%;
+    position: relative;
+    left: 15%;
+    margin-top: -120px;
+    padding: 30px;
+    margin-right: 100px;
+    background-color: white;
+    box-shadow: 0px 5px 10px grey;
 
+}
+.life{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.brown{
+    color: grey;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#quick{
+    color:white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.mind:last-child{
+   color: white;
+   background-color: #23A6F0;
+}
 .quote{
     height: 400px;
 }

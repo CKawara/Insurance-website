@@ -164,3 +164,17 @@ nav>ul>li:last-child{
     background-color: #f5f6fc;
     height: 2000px; 
 }
+.industry{
+    border: solid;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    padding: 50px;
+    font-size: large;
+}
+.industry>p:first-child{
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}

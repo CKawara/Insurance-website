@@ -179,6 +179,7 @@ nav>ul>li:last-child{
 }
 .slate{
     display: flex;
+    margin-bottom: 100px;
 }
 .users{
     border: rgba(128, 128, 128, 0.3) 1px solid;
@@ -193,4 +194,13 @@ nav>ul>li:last-child{
 }
 .users>p{
     padding: 20px;
+}
+.logos{
+    width: 50%;
+    position: relative;
+    left: 28%;
+    padding: 30px;
+}
+.logos>img{
+    margin-right: 50px;
 }

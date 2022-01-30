@@ -204,3 +204,30 @@ nav>ul>li:last-child{
 .logos>img{
     margin-right: 50px;
 }
+.subscribe{
+    padding: 50px;
+    width: 50%;
+    position: relative;
+    left: 27%;
+    color: white;
+    font-weight: 900;
+    font-size: x-large;
+    background-image: linear-gradient(to right, blue, rgb(248, 4, 126));
+}
+input{
+    border-radius: 10px;
+    position: relative;
+    left: 10%;
+}
+input[Type=email]{
+    color: grey;
+    padding: 20px;
+    width: 35%;
+}
+input[Type=submit]{
+    color: white;
+    background-color: #23A6F0;
+    padding: 20px;
+    margin-left: -20px;
+    width: 15%;
+}

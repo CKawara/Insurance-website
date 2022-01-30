@@ -37,6 +37,9 @@ nav>ul>li>a{
     text-decoration: none;
     font-weight: 600;
 }
+nav>ul>li>a:hover{
+    color: #23A6F0;
+}
 .right{
     float: right;
 }
@@ -52,6 +55,8 @@ nav>ul>li:last-child{
     background-color: #23A6F0;
     padding: 18px;
     border-radius: 10px;
+}
+#member:hover{
     box-shadow: 0px 5px 10px grey;
 }
 .ensure{
@@ -97,6 +102,8 @@ nav>ul>li:last-child{
     width: 30%;
     border-radius: 30px;
     background-color: #23A6F0;
+}
+.get button:hover{
     box-shadow: 0px 5px 10px grey;
 }
 .get button:last-child{
@@ -239,6 +246,9 @@ nav>ul>li:last-child{
     position: relative;
     left: 10%;
 }
+.submit:hover{
+    box-shadow: 0px 5px 10px grey;
+}
 .pricing{
     display: flex;
     margin-top: 4%;
@@ -293,6 +303,9 @@ nav>ul>li:last-child{
     font-size: large;
     font-weight: bold;
     border: none;
+}
+.free>button:hover{
+    box-shadow: 0px 5px 10px grey;
 }
 .branches{
     display: flex;
@@ -350,6 +363,8 @@ width: 50%;
     height: 50px;
     background-color: #23A6F0;
     color: white;
+}
+.contact:hover{
     box-shadow: 0px 5px 10px grey;
 }
 .consulting{
@@ -378,6 +393,34 @@ width: 50%;
     padding: 20px;
     color: white;
     border-radius: 10px;
-    width: 50%;
-    
+    width: 50%;  
+}
+.consulting>div>button:hover{
+    box-shadow: 0px 5px 10px grey;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    margin: 20px;
+}
+.info>p{
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.info>ul>li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.info>ul>li>a{
+    text-decoration: none;
+    color: grey;
+}
+.info>ul>li>a:hover{
+    color: #23A6F0;
+}
+.quote:last-child{
+    height: 100px;
 }

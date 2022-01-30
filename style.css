@@ -103,5 +103,166 @@
         bottom: 450px;
         height: 300px;
     }
-
+    .quote{
+        height: 800px;
+    }
+    .create{
+        display: block;
+    }
+    .set{
+        width: 80%;
+        position: relative;
+        bottom: 15%;
+        margin-bottom: 100px;
+        margin-right: 100px;
+        margin-left: -8%;
+        text-align: center;
+    }
+    .industry{
+        width: 100%;
+        margin-left: -33%;
+        font-size: large;
+    }
+    .slate{
+        display: block;
+    }
+    .users{
+        border: rgba(128, 128, 128, 0.3) 1px solid;
+        width: 80%;
+        height: 400px;
+        text-align: center;
+        position: relative;
+        left: 10%;
+        padding: 50px;
+        margin-bottom: 5%;
+        background-color: white;
+    }
+    .logos{
+        display: block;
+        width: 50%;
+        position: relative;
+        left: 28%;
+        margin-bottom: 10%;
+    }
+    .logos>img{
+        margin-bottom: 10%;
+        margin-top: 20%;
+    }
+    .subscribe{
+        width: 100%;
+        position: relative;
+        left: -3px;
+        color: white;
+        font-weight: 900;
+        font-size: x-large;
+        background-image: linear-gradient(to right, blue, rgb(248, 4, 126));
+    }
+    .email{
+        color: grey;
+        padding: 15px;
+        width: 80%;
+        border-radius: 0px;
+        position: relative;
+        left: 0%;
+    }
+    .submit{
+        color: white;
+        background-color: #23A6F0;
+        padding: 15px;
+        margin-left: 0px;
+        width: 40%;
+        border-radius: 0px;
+        position: relative;
+        left: 0%;
+    }
+    .pricing{
+        display: block;
+        margin-top: 4%;
+    }
+    .free{
+        border: 1px solid #23A6F0;
+        padding: 10px;
+        margin-top: 10%;
+        height: 680px;
+        width: 80%;
+        position: relative;
+        border-radius: 0px;
+        left: 10%;
+        text-align: center;
+    }
+    .services{
+        background-color: #f5f6fc;
+        height: 7000px; 
+    }
+    #standard{
+        margin-top: 10%;
+        height: 700px;
+        background-color: #252B42;
+        color: white;
+    }
+    .branches{
+        display: block;
+        background-color: #252B42;
+        height: 700px;
+        color: white;
+        padding: 6%;
+    }
+    .world{
+        height: 40%;
+        width: 100%;
+    }
+    .world>p{
+        padding: 15px;
+    }
+    .map{
+        position: relative;
+        top: 20%;  
+        left: 10%;
+        height: 35%;
+        width: 90%;
+    }
+    .map>img{
+        max-height: 100%;
+        max-width: 100%;  
+    }
+    .appointments{
+        display: block;
+        width: 40%;
+        background-color: white;
+        position: relative;
+        left: 0%;
+        width: 100%;
+        box-shadow: 0px 5px 10px grey;
+    }
+    .appointments>div>img{
+        width: 100%;
+        height: 300px;
+    }
+    .consulting{
+        display: block;
+        border: solid;
+        margin: 0%;
+        height: 200px;
+        width: 100%;
+        padding: 50px;
+    }
+    .consulting>div:first-child{
+        padding: 10px;
+    }
+    .consulting>div>p:first-child{
+        font-size: x-large;
+    }
+    .consulting>div:last-child{
+        position: relative;
+        left: 0%;
+        width: 100%;
+        padding-top: 40px;
+    }
+    .consulting>div>button{
+        background-color: #23A6F0;
+        padding: 20px;
+        color: white;
+        border-radius: 10px;
+        width: 100%;  
+    }
 }

@@ -424,3 +424,13 @@ width: 50%;
 .quote:last-child{
     height: 100px;
 }
+#last{
+    height: 230px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f6fc;
+    height: 50px;
+    padding-top: 20px;
+}

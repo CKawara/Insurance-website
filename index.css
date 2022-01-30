@@ -286,3 +286,27 @@ input[Type=submit]{
     font-weight: bold;
     border: none;
 }
+.branches{
+    display: flex;
+    background-color: #252B42;
+    height: 800px;
+    color: white;
+    padding: 6%;
+}
+.world{
+    height: 50%;
+    width: 30%;
+}
+.world>p{
+    padding: 15px;
+}
+.map{
+position: relative;
+left: 25%;    
+height: 60%;
+width: 50%;
+}
+.world>p:first-child{
+    font-size: 40px;
+    font-weight: 800;
+}

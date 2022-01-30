@@ -2,7 +2,7 @@
 This is a an insurance company website,to help businesses with their insurance needs. So far the site only has this landing page but is intended to improve by the day. The site is built with html and styled with CSS only.
 
 ## Demo
-Here's a live demo 
+Here's a live demo https://ckawara.github.io/Insurance-website/
 
 ## Technologies
 - [HTML](https://www.w3schools.com/html/) -HTML is the standard markup language for Web pages.

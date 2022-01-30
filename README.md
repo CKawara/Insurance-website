@@ -15,5 +15,5 @@ Here's a live demo
 ## Contributers
 [Catherine Kawara](https://github.com/CKawara/)
 
-## [license](https://github.com/CKawara/-Burger-Palace/blob/master/LICENSE)
+## [license](https://github.com/CKawara/Insurance-website/blob/master/LICENSE)
 MIT © [Catherine Kawara](https://github.com/CKawara/Insurance-website)

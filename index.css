@@ -52,6 +52,7 @@ nav>ul>li:last-child{
     background-color: #23A6F0;
     padding: 18px;
     border-radius: 10px;
+    box-shadow: 0px 5px 10px grey;
 }
 .ensure{
     height: 800px;
@@ -96,6 +97,7 @@ nav>ul>li:last-child{
     width: 30%;
     border-radius: 30px;
     background-color: #23A6F0;
+    box-shadow: 0px 5px 10px grey;
 }
 .get button:last-child{
     background-color: transparent;
@@ -162,7 +164,7 @@ nav>ul>li:last-child{
 }
 .services{
     background-color: #f5f6fc;
-    height: 4000px; 
+    height: 3400px; 
 }
 .industry{
     width: 30%;
@@ -214,22 +216,28 @@ nav>ul>li:last-child{
     font-size: x-large;
     background-image: linear-gradient(to right, blue, rgb(248, 4, 126));
 }
-input{
+/*input{
+    border-radius: 10px;
+    position: relative;
+    left: 10%;
+}*/
+.email{
+    color: grey;
+    padding: 20px;
+    width: 35%;
     border-radius: 10px;
     position: relative;
     left: 10%;
 }
-input[Type=email]{
-    color: grey;
-    padding: 20px;
-    width: 35%;
-}
-input[Type=submit]{
+.submit{
     color: white;
     background-color: #23A6F0;
     padding: 20px;
     margin-left: -20px;
     width: 15%;
+    border-radius: 10px;
+    position: relative;
+    left: 10%;
 }
 .pricing{
     display: flex;
@@ -309,4 +317,67 @@ width: 50%;
 .world>p:first-child{
     font-size: 40px;
     font-weight: 800;
+}
+.appointments{
+    display: flex;
+    width: 40%;
+    background-color: white;
+    position: relative;
+    left: 30%;
+    margin-top: -15%;
+    box-shadow: 0px 5px 10px grey;
+}
+.book{
+    width: 100%;
+    padding: 5%;
+}
+.book>p{
+    margin: 10%;
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center;
+}
+.name{
+    margin-bottom: 5%;
+    background-color: #f5f6fc; 
+    border-radius: 10px;
+    width: 90%;
+    height: 50px;
+}
+.contact{
+    border-radius: 10px;
+    width: 90%;
+    height: 50px;
+    background-color: #23A6F0;
+    color: white;
+    box-shadow: 0px 5px 10px grey;
+}
+.consulting{
+    display: flex;
+    margin: 5%;
+    height: 250px;
+    padding: 50px;
+}
+.consulting>div>p:last-child{
+    padding: 10px;
+}
+.consulting>div:first-child{
+    padding: 20px;
+}
+.consulting>div>p:first-child{
+    font-size: xx-large;
+}
+.consulting>div:last-child{
+    position: relative;
+    left: 30%;
+    width: 20%;
+    padding-top: 40px;
+}
+.consulting>div>button{
+    background-color: #23A6F0;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    width: 50%;
+    
 }
